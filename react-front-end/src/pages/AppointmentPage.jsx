@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 
-import AppointmentList from '../components/AppointmentList';
+import AppointmentList from '../components/Appointment/AppointmentList';
 import { DataContext } from '../providers/DataProvider';
 
 export default function AppointmentPage() {

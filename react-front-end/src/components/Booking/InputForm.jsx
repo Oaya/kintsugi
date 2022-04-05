@@ -5,6 +5,7 @@ import { MdDateRange, MdAccessTime } from 'react-icons/md'
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
 import DatePicker from "react-modern-calendar-datepicker";
 import useSpeechToText from 'react-hook-speech-to-text';
+import axios from "axios";
 
 
 export default function InputForm(props) {
@@ -26,23 +27,20 @@ export default function InputForm(props) {
     setTime(time);
   };
 
-  const addNewAppointmentData = (event) => {
+  const addNewAppointmentData = () => {
     const dateData = ` ${selectedDay.year}-${selectedDay.month}-${selectedDay.day}`;
     const myData =
     {
       professional: professional.id,
       date: dateData,
-      time: time,
+      time,
       info: formState
     };
-    fetch('/api/appointments', {
-      method: 'post',
+    axios.post('/api/appointments', myData, {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(myData)
     })
-      .then(response => response.json())
-      .then(body => {
-
+      .then(() => {
         navigate('/thankyou')
       })
       .catch((error) => {

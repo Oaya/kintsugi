@@ -12,7 +12,7 @@ export default function NavBar() {
       </div>
       <NavLinks />
       <div className="navigation__links2">
-        <div className="logout"><span className="user"><FaRegUser/ > Aya Okizaki</span><br/ ><span className="hover">Logout</span> </div>
+        <div className="logout"><span className="user"><FaRegUser /> Aya Okizaki</span><br /><span className="hover">Logout</span> </div>
       </div>
     </nav>
   );

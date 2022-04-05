@@ -34,7 +34,7 @@ body {
     margin: 0px;
     margin-top: 10px;
     margin-bottom: 0px;
-    padding-left: .8em;
+    padding-left: 0.8em;
     font-weight: normal;
     font-family: "Alegreya", serif;
     -webkit-font-smoothing: antialiased;
@@ -49,7 +49,6 @@ body {
     margin-top: 3rem;
     margin-left: -6rem;
     white-space: nowrap;
-
 
     :hover {
       opacity: 0.7;
@@ -67,7 +66,6 @@ body {
     font-size: 2vw;
     margin-top: 2rem;
     padding-right: 1.2em;
-
   }
 }
 
@@ -76,22 +74,23 @@ body {
   text-align: right;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 0.2em;
-  margin-right: .8em;
-  font-size: .8em;
+  margin-right: 0.8em;
+  font-size: 0.8em;
 }
 .user {
-    color: white; 
-    opacity: .9; 
-    font-size: .7em; 
-  }
-
-.hover {color: #856c6c;}
-
-.hover:hover {
-  opacity: .6; 
-  color: white; 
+  color: white;
+  opacity: 0.9;
+  font-size: 0.7em;
 }
 
+.hover {
+  color: #856c6c;
+}
+
+.hover:hover {
+  opacity: 0.6;
+  color: white;
+}
 
 span {
   color: #ffffff;
@@ -107,7 +106,7 @@ span {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  min-height: 90vh; 
+  min-height: 90vh;
   // overflow: clip;
 }
 .components_container2 {
@@ -130,20 +129,19 @@ span {
   padding: 25px 54px 25px 54px;
   font-size: 15px;
   // height: 20%;
-  // overflow-y: clip; 
+  // overflow-y: clip;
 }
 
-  footer {
+footer {
   background-color: white;
   display: flex;
   justify-content: space-between;
   padding: 25px 54px 25px 54px;
   font-size: 15px;
   max-height: 10vh;
-  bottom: 0; 
+  bottom: 0;
   // height: 20%;
-  // overflow-y: clip; 
-
+  // overflow-y: clip;
 
   h4 {
     color: #cba96d;
@@ -176,10 +174,10 @@ code {
     Consolas, "Courier New", monospace;
 }
 
-
-.hidden
-{color: #cba96d; 
-padding-left: 9.2em; }
+.hidden {
+  color: #cba96d;
+  padding-left: 9.2em;
+}
 
 // header
 
@@ -193,7 +191,7 @@ h2 {
 
 .heading {
   margin-bottom: -1rem;
-  margin-top: -50px; 
+  margin-top: -50px;
 
   h2 {
     font-size: 3rem;
@@ -217,11 +215,12 @@ h2 {
   }
 }
 
-.icons
-{margin: 2em; 
-text-align: center; 
-margin-bottom: -2.5em; 
-margin-left: -3.8em; }
+.icons {
+  margin: 2em;
+  text-align: center;
+  margin-bottom: -2.5em;
+  margin-left: -3.8em;
+}
 
 .placeholder {
   background-color: #ffffff;
@@ -250,30 +249,31 @@ margin-left: -3.8em; }
   }
 }
 
-
 .center {
   text-align: center;
   display: flex;
   justify-content: space-between;
- }
+}
 
 .center2 {
   text-align: center;
   justify-content: center;
-  width: 60%; 
+  width: 60%;
   margin-left: 20%;
-  margin-right: 20%; 
-  min-height: 540px; 
-  padding-top: 2em; 
+  margin-right: 20%;
+  min-height: 540px;
+  padding-top: 2em;
 
   a {
     font-family: "Bebas Neue", cursive;
-  letter-spacing: 0.2em;
-  color: white; 
-  font-size: .8em; 
-  padding-right: .5em; 
+    letter-spacing: 0.2em;
+    color: white;
+    font-size: 0.8em;
+    padding-right: 0.5em;
   }
-  a:hover {opacity: .6}
+  a:hover {
+    opacity: 0.6;
+  }
 }
 
 // bookingForm
@@ -451,6 +451,7 @@ margin-left: -3.8em; }
   box-shadow: $default-box-shadow;
   font-size: 2rem;
   font-weight: bold;
+  cursor: pointer;
 
   &:active {
     transform: translateY(2px);
@@ -463,16 +464,16 @@ margin-left: -3.8em; }
 
 // calendar
 
-
 .my-custom-input-class {
-  font-size: 1em;  
-  padding: .3em; 
-  border: 2px solid black; 
+  font-size: 1em;
+  padding: 0.3em;
+  border: 2px solid black;
   box-shadow: $default-box-shadow;
-  margin-top: .5em;
-  text-align: center; 
-  width: 7em; }
+  margin-top: 0.5em;
+  text-align: center;
+  width: 7em;
+}
 
-  .my-custom-input-class:hover {
-    color: #cba96d;
-  }
+.my-custom-input-class:hover {
+  color: #cba96d;
+}

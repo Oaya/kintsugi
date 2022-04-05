@@ -8,7 +8,7 @@ export default function NavLinks() {
 
       </div>
       <div>
-        <a href="/myappointments">View Appointments</a>
+        <a href="/myAppointments">View Appointments</a>
       </div>
     </div>
   );

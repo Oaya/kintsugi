@@ -7,7 +7,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 import { MdCall } from 'react-icons/md';
 import { MdCallEnd } from 'react-icons/md';
 
-const socket = io('/');
+const socket = io('http://localhost:8080');
 
 export default function VideoPage() {
   const [myself, setMyself] = useState('');
