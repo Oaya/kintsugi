@@ -33,7 +33,7 @@ export default function BookingForm(props) {
 
           <div className="profile_header">
             <div>
-              <img src={professional.icon_url} style={{ width: 160 }} alt=""></img>
+              <img src={professional.icon_url} style={{ width: 160 }} alt="icon"></img>
             </div>
 
             <div className="proff_name">

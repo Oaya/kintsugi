@@ -17,7 +17,6 @@ export default function DataProvider(props) {
 
   useEffect(() => {
     getAllSpecialties();
-
   }, []);
 
   const getAllSpecialties = () => {
@@ -102,7 +101,6 @@ export default function DataProvider(props) {
 
   const providerData = {
     professional,
-
     specialties,
     specialtiesForProfessional,
     searchedProfessionals,
@@ -112,7 +110,6 @@ export default function DataProvider(props) {
     checkedCategories,
     show,
     getAppointmentsByUserId,
-
     getAllSpecialties,
     getProfessionalById,
     getSpecialtiesByProfessionalId,

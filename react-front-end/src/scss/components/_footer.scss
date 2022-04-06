@@ -1,0 +1,19 @@
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 54px 25px 54px;
+  font-size: 15px;
+  max-height: 10vh;
+  bottom: 0;
+  // height: 20%;
+  // overflow-y: clip;
+
+  h4 {
+    color: #cba96d;
+    font-size: 25px;
+    padding: -5px;
+    margin-top: -5px;
+    font-family: "Alegreya", serif;
+  }
+}

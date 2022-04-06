@@ -44,7 +44,7 @@ export default function HomeHeading() {
       <div className="selection__container">
         <Selection genre="Language" data={languageData} />
         <Selection genre="Province" data={provinceData} />
-        <div onClick={handleClick} className="searchbtn">
+        <div onClick={handleClick} className="btn-search">
           Search
         </div>
       </div>

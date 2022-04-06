@@ -1,11 +1,147 @@
 .form_container {
-  background-color: #ffffff; 
-  width: 800px; 
-  display: flex; 
-  text-align: center; 
-  font-size: 15px; 
-  padding: 2rem;
-  margin: 2rem; 
-  margin-bottom: 3rem; 
+  background-color: #ffffff;
+  width: 60%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: $default-box-shadow;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  .go_back {
+    color: #ffffff;
+    font-size: 2rem;
+    width: 70%;
+    box-shadow: $default-box-shadow;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #ae915e;
+    padding: 1rem;
+  }
+
+  .go_back:hover {
+    background-color: #e3ce94;
+  }
+
+  td {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  table {
+    padding-left: 1rem;
+  }
+
+  img {
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .profile_header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -1rem;
+
+    .proff_name h2 {
+      font-family: Alegreya;
+      font-weight: bold;
+      font-size: 2rem;
+      color: #ae915e;
+      margin-bottom: -1rem;
+      margin-top: -0.5rem;
+      margin-left: 1rem;
+    }
+  }
+}
+
+.professional_display {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomhalf {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  .mic {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 0.7em;
+    color: grey;
+  }
+
+  textarea {
+    width: 80%;
+    min-height: 15rem;
+    border-bottom: 0px;
+    padding: 1em;
+    font-size: 0.7em;
+  }
+
+  textarea:active {
+    border: 0px;
+  }
+
+  select {
+    font-size: 1em;
+    margin: 1em;
+    padding: 0.3em;
+    border: 2px solid black;
+    box-shadow: $default-box-shadow;
+    margin-top: 0.5em;
+  }
+
+  select:hover {
+    color: #cba96d;
+  }
+
+  .submit {
+    color: #ffffff;
+    font-size: 2rem;
+    box-shadow: $default-box-shadow;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #ae915e;
+    padding: 1rem;
+    border: 0px;
+    width: 70%;
+  }
+
+  .submit:hover {
+    background-color: #cba96d;
+  }
+}
+// calendar
+
+.my-custom-input-class {
+  font-size: 1em;
+  padding: 0.3em;
+  border: 2px solid black;
+  box-shadow: $default-box-shadow;
+  margin-top: 0.5em;
+  text-align: center;
+  width: 7em;
+}
+
+.my-custom-input-class:hover {
+  color: #cba96d;
 }

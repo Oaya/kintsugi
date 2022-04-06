@@ -16,7 +16,7 @@ describe("Navigation", () => {
     cy.get('.selection').contains('Province').click();
     cy.contains('BC').click();
 
-    cy.get('.searchbtn').click();
+    cy.get('.btn-search').click();
 
     cy.contains(".professionals__item", "Garek Slamaker");
     cy.contains("professionals__item", "Ole Beagley").should("not.exist");

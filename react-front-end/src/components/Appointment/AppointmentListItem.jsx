@@ -13,6 +13,7 @@ export default function AppointmentListItem(props) {
   const handleClick = () => {
     navigate('/video');
   };
+
   return (
     <li className="appointment">
       <div>{date}</div>
@@ -23,7 +24,7 @@ export default function AppointmentListItem(props) {
         onClick={handleClick}
         className="appointment__icon"
         src="https://cdn-icons-png.flaticon.com/128/4185/4185236.png"
-        alt=""
+        alt="icon"
       />
     </li>
   );
