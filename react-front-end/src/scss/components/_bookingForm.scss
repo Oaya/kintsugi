@@ -1,3 +1,5 @@
+@import "styles/variable.scss";
+
 .form_container {
   background-color: #ffffff;
   width: 60%;
@@ -86,7 +88,13 @@
     justify-content: center;
     padding: 1em;
     font-size: 0.7em;
-    color: grey;
+
+    &__icon {
+      border: none;
+      background-color: white;
+      font-size: 1.2em;
+      margin-top: 0;
+    }
   }
 
   textarea {
@@ -130,7 +138,11 @@
     background-color: #cba96d;
   }
 }
+
 // calendar
+.datePicker {
+  z-index: 10;
+}
 
 .my-custom-input-class {
   font-size: 1em;
