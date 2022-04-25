@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heyjiani/project-kintsugi.git"
+    "url": "git+https://git.heroku.com/kintsugi-backend.git"
   },
   "author": "",
   "license": "ISC",
