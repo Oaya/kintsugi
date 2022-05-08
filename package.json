@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd express-back-end && npm start",
-    "install-server": "cd express-back-end && npm install && cd ..",
-    "heroku-postbuild": "cd react-frontend && npm install && npm run build"
+    "install-server": "cd react-frontend && npm install && npm run build",
+    "heroku-postbuild": "install-server"
   },
   "repository": {
     "type": "git",
