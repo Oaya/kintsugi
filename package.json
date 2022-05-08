@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd express-back-end && npm start",
     "install-server": "cd express-back-end && npm install && cd ..",
-    "heroku-postbuild": "npm run install-server"
+    "heroku-postbuild": "cd react-frontend && npm install && npm run build"
   },
   "repository": {
     "type": "git",
