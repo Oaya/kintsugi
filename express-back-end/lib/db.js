@@ -9,7 +9,7 @@ require("dotenv").config({ path: PATH });
 
 const dbParams = {
   connectionString: process.env.DATABASE_URL || "",
-  // ssl: process.env.DATABASE_URL ? { rejectUnauthorized: false } : false
+  ssl: process.env.DATABASE_URL ? { rejectUnauthorized: false } : false
 };
 
 const db = new Pool(dbParams);
