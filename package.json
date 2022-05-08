@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd express-back-end && npm start",
-    "install-server": "cd react-frontend && npm install && npm run build",
+    "install-server": "cd react-front-end && npm install && npm run build",
     "heroku-postbuild": "npm run install-server"
   },
   "repository": {
