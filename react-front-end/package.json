@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "scss": "node-sass --watch src/scss -o css",
-    "cypress": "cypress open -P ."
+    "cypress": "cypress open -P .",
+    "node-sass": "^4.14.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,7 +34,6 @@
   ],
   "proxy": "http://localhost:8080",
   "devDependencies": {
-    "cypress": "^9.5.2",
-    "node-sass": "^4.14.0"
+    "cypress": "^9.5.2"
   }
 }
