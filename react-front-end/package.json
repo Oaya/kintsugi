@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.1",
+    "node-sass": "^4.14.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hook-speech-to-text": "^0.8.0",
@@ -20,8 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "scss": "node-sass --watch src/scss -o css",
-    "cypress": "cypress open -P .",
-    "node-sass": "^4.14.0"
+    "cypress": "cypress open -P ."
   },
   "eslintConfig": {
     "extends": "react-app"
