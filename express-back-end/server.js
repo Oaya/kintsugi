@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 const Express = require("express");
 const morgan = require("morgan");
 const BodyParser = require("body-parser");
@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 8080;
 const socketServer = require('./socketServer');
 const cors = require("cors");
 const path = require('path');
+
+if (process.env.ENVIRONMENT !== 'production') {
+  require("dotenv").config();
+}
 
 // Routes requires
 const clientRoutes = require("./routes/clients");
